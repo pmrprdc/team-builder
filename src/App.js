@@ -1,10 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import styled from "styled-components"
 import { Form, Input, DreamDiv } from "./StyledComponentsForApp"
-
-
-
 
 
 
@@ -15,7 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <DreamDiv>
-            <h1>Test</h1>
+            <h1>Dream Team</h1>
         </DreamDiv>
         <img src={logo} className="App-logo" alt="logo" />
       <Form>
