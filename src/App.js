@@ -8,18 +8,20 @@ const Form = styled.form`
 background-color: green;
 width: 50%;
 border-radius: 20px;
-
 `
+const Input = styled.input`
+background-color: pink;
+border-radius: 5px;`
+
 
 function App() {
   return (
     <div className="App">
-      <Form>
-
-        <input type="text" />
-      </Form>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+      <Form>
+        <Input type="text" />
+      </Form>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
