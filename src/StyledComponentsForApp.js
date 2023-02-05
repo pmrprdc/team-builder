@@ -13,8 +13,8 @@ border-radius: 5px;
 `
 const DreamDiv = styled.div`
 background-color: green;
-border-radius: 5px;
-width: 90%;
+border-radius: 20px;
+width: 50%;
 `
 
 

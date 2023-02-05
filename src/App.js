@@ -1,12 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import { Form, Input, DreamDiv } from "./StyledComponentsForApp"
+import React, { useState } from 'react';
 
-
-
+const initialDreamTeam = ["Elon Musk", "Ray Kurzweil", "Post Malone"]
 
 
 function App() {
+
+const [dreamTeam, setDreamTeam] = useState(initialDreamTeam)
+
+
   return (
     <div className="App">
       <header className="App-header">
